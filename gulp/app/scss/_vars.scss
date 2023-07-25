@@ -1,0 +1,44 @@
+/* Start colors */
+$white: #fff;
+$rhino: #344265;
+$alabaster: #f8f8f8;
+$yellow: #faff00;
+$east_bay: #485982;
+$waikawa-gray: #5f719f;
+
+
+/* End colors */
+
+/* Start fonts */
+
+%pj-800 {
+  font-family: 'Plus-Jakarta-Sans-Extra-Bold', sans-serif;
+  font-weight: 800;
+}
+
+%pj-600 {
+  font-family: 'Plus-Jakarta-Sans-Semi-Bold', sans-serif;
+  font-weight: 600;
+}
+
+%pj-500 {
+  font-family: 'Plus-Jakarta-Sans-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%pj-400 {
+  font-family: 'Plus-Jakarta-Sans-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin size($size) {
+  width: $size;
+  height: $size;
+}
+
+/* End fonts */
